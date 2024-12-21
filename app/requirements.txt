@@ -1,0 +1,3 @@
+twitchio			# Library Twitch
+confluent-kafka		# Library for Kafka (Confluent)
+kafka-python		# Kafka Python client
