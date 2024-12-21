@@ -2,9 +2,7 @@ from KafkaManager import KafkaManager
 from TwitchChatListener import TwitchChatListener
 
 import argparse
-import multiprocessing
 import time
-import signal
 import sys
 
 
