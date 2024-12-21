@@ -4,7 +4,7 @@
 
 This project implements a real-time data processing pipeline designed to capture, analyze, and store live chat messages from Twitch streams. Using Python and the Twitchio API, live messages are ingested and sent to Apache Kafka, which acts as a distributed message broker. The architecture includes two Kafka consumers: one powered by Spark Streaming (PySpark) for real-time data analysis, and another dedicated to storing processed data in a Database. This dual-consumer setup ensures both immediate insights and long-term data availability, enabling seamless exploration and visualization of Twitch chat activity.
 
-(This project is not finished)
+**(This project is not finished)**
 
 ### Objective:
 
@@ -17,12 +17,12 @@ This project implements a real-time data processing pipeline designed to capture
 
 ## Development Progress
 
-   • [x] Twitch Comments Retrieval: Developed a Python class to fetch live chat messages using the Twitchio API.
-   • [x] Kafka Connection: Implemented a Python class to establish a connection to Apache Kafka.
-   • [x] Data Ingestion: Successfully integrated the system to send Twitch chat data to Kafka as events.
-   • [ ] Multi-Channel Support: Enhance the Twitch listener to handle multiple Twitch channels simultaneously.
-   • [ ] Data Storage Consumer: Develop a Kafka consumer to store processed data in an ElasticSearch database.
-   • [ ] Real-Time Analysis: Implement real-time data analysis using PySpark for insights and transformations.
+- [x] Twitch Comments Retrieval: Developed a Python class to fetch live chat messages using the Twitchio API.
+- [x] Kafka Connection: Implemented a Python class to establish a connection to Apache Kafka.
+- [x] Data Ingestion: Successfully integrated the system to send Twitch chat data to Kafka as events.
+- [ ] Multi-Channel Support: Enhance the Twitch listener to handle multiple Twitch channels simultaneously.
+- [ ] Data Storage Consumer: Develop a Kafka consumer to store processed data in an ElasticSearch database.
+- [ ] Real-Time Analysis: Implement real-time data analysis using PySpark for insights and transformations.
 
 ---
 
