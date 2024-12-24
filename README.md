@@ -76,7 +76,7 @@ Options:
 
 ## Example usage
 ```bash
-python3 main.py -s localhost:9092 --topic name_topic -tt token -c channel_name -v True
+python3 main.py -s localhost:9092 --topic name_topic -tt token -c channel_name -v 
 ```
 
 
